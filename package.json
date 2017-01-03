@@ -21,9 +21,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicksp/redux-webpack-es6-boilerplate.git"
+    "url": "git+https://github.com/teespring/redux-webpack-es6-boilerplate.git"
   },
-  "bugs": "https://github.com/nicksp/redux-webpack-es6-boilerplate/issues",
+  "bugs": {
+    "url": "https://github.com/teespring/redux-webpack-es6-boilerplate/issues"
+  },
   "scripts": {
     "clean:build": "rimraf build",
     "build:html": "node ./bin/buildHtml.js",
@@ -107,5 +109,13 @@
     "redux-logger": "2.6.1",
     "redux-promise": "0.5.3",
     "reselect": "2.5.3"
+  },
+  "homepage": "https://github.com/teespring/redux-webpack-es6-boilerplate#readme",
+  "main": "src/client/assets/javascripts/app/Root.js",
+  "bin": {
+    "redux-webpack-es6-boilerplate": "buildHtml.js"
+  },
+  "directories": {
+    "test": "test"
   }
 }
